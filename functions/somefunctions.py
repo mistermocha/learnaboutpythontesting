@@ -8,4 +8,5 @@ def fib(num):
 def fiblist(num):
     ret = []
     for i in range(num):
-        ret.append(fib(num))
+        ret.append(fib(i))
+    return ret
